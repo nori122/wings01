@@ -28,6 +28,7 @@
     "firebase-tools": "^8.12.1",
     "firebaseui": "^4.7.0",
     "nuxt": "^2.14.6",
+    "ress": "^3.0.0",
     "save": "^2.4.0"
   },
   "devDependencies": {
