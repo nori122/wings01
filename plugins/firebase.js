@@ -1,4 +1,7 @@
-import firebase from 'firebase'
+import * as firebase from 'firebase/app'
+// Add the Firebase services that you want to use
+import 'firebase/auth'
+import 'firebase/firestore'
 
 if (!firebase.apps.length) {
   firebase.initializeApp({
@@ -11,6 +14,7 @@ if (!firebase.apps.length) {
     appId: '1:184140956297:web:2877109078f8d31cbefc58',
     measurementId: 'G-LQNQP9QJ3C',
   })
+  // firebase.analytics()
 }
 
 export default firebase
